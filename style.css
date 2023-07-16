@@ -1,11 +1,11 @@
 .header-maindiv{
     background-color: rgb(249, 244, 244);
     width: 100%;
-    height: 700px;
+   
    
 }
 .nav-header{
-    width: 100%;
+    
 }
 .header{
     display: flex;
@@ -26,6 +26,78 @@
     font-size: 20px;
     padding-right: 30px;
    
+}
+.Subscribe-div{
+    width: 80%;
+    height: 528px;
+    background-image: url(./images/Rectangle\ 1.png);
+    position: relative;
+    border-radius: 0px 0px 40px 0px;
+}
+.Subscribe-maindiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 182px;
+}
+.Subscribe-colon{
+    font-size: 167px;
+    color: gray;
+}
+.subcribe-tag{
+    width: 338px;
+    font-size: 40px;
+    color: #3e5376;
+}
+.Subscribe-btn {
+    background-color: #3e5376;
+    width: 270px;
+    height: 50px;
+    color: #fcfafa;
+    border-radius: 0px 0px 30px 0px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+/* Crafting-maindiv */
+.Crafting-maindiv{
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+}
+.Crafting-div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Crafting-tag{
+    width: 302px;
+    font-size: 30px;
+    color: blue;
+}
+.Crafting-ptag{
+    width: 589px;
+    font-size: 17px;
+}
+.crift-list-item{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.crafting-card{
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crifting-img{
+    padding: 32px;
+    width: 108px;
+}
+.crafting-maincard{
+    display: flex;
+    justify-content: space-between;
+
 }
 /* <previous> */
 .previous-maindiv{
