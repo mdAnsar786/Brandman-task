@@ -1,8 +1,8 @@
 .header-maindiv{
-    background-color: rgb(249, 244, 244);
+    background-color: white;
     width: 100%;
-   
-   
+    position: relative;
+    
 }
 .nav-header{
     
@@ -28,26 +28,30 @@
    
 }
 .Subscribe-div{
-    width: 80%;
+    width: 76%;
     height: 528px;
     background-image: url(./images/Rectangle\ 1.png);
     position: relative;
     border-radius: 0px 0px 40px 0px;
+    padding-top: 67px;
+
 }
 .Subscribe-maindiv{
     display: flex;
     justify-content: space-between;
-    margin-left: 75px;
-    margin-right: 182px;
+    margin-left: 133px;
+    margin-right: 197px;
 }
 .Subscribe-colon{
-    font-size: 167px;
-    color: gray;
+    color: #9297a0;
+     font-size: 100px;
+    padding-top: 50px;
 }
-.subcribe-tag{
-    width: 338px;
-    font-size: 40px;
+.subcrib-tag{
+    width: 420px;
+    font-size: 50px;
     color: #3e5376;
+    margin-top: 11px;
 }
 .Subscribe-btn {
     background-color: #3e5376;
@@ -57,7 +61,7 @@
     border-radius: 0px 0px 30px 0px;
     font-size: 20px;
     margin-top: 25px;
-    margin-left: 22px;
+    margin-left: 12px;
 }
 /* Crafting-maindiv */
 .Crafting-maindiv{
@@ -74,7 +78,7 @@
 .Crafting-tag{
     width: 302px;
     font-size: 30px;
-    color: blue;
+    color: rgb(21, 21, 25);
 }
 .Crafting-ptag{
     width: 589px;
@@ -83,16 +87,104 @@
 .crift-list-item{
     list-style-type: none;
     padding-left: 0px;
+    color: #3e5376;
+    font-weight: 600;
 }
-.crafting-card{
-    width: 180px;
-    height: 180px;
+.crafting-card1{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crafting-card2{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 25px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crafting-card3{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.second-card-crft{
+    margin-top: 71px;
+    padding-left: 50px;
+}
+.crafting-card4{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crafting-card5{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 25px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crafting-card6{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.third-card-crft{
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.crafting-card7{
+    width: 160px;
+    margin-bottom: 50px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crafting-card8{
+    width: 160px;
+    margin-bottom: 25px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.crafting-card9{
+    width: 160px;
+    height: 160px;
     background-color: white;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .crifting-img{
+    padding: 21px;
+    width: 100px;
+    padding-left: 30px;
+}
+.crifting-img2{
+    padding: 21px;
+    width: 68px;
+    padding-left: 42px;
+}
+.crifting-img6{
+    padding: 48px;
+    padding-left: 20px;
+    width: 123px;
+}
+.crifting-img4{
+    padding: 28px;
+    width: 122px;
+    margin-top: 23px;
+    padding-left: 20px;
+
+}
+.crifting-img9{
     padding: 32px;
-    width: 108px;
+    width: 76px;
+    align-items: center;
+    padding-left: 46px;
 }
 .crafting-maincard{
     display: flex;
@@ -173,7 +265,7 @@
 .news-maindiv{
     width: 100%;
     height: 600px;
-    background-image: url(./images/Rectangle\ 10.png);
+    /* background-image: url(./images/Rectangle\ 10.png); */
 }
 .news-carddiv{
     display: flex;
@@ -249,7 +341,15 @@
     color: #818181;
 
 }
-
+.icon-circul{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid orange;
+    margin: auto;
+    margin-top: 15px;
+}
 .work-text1{
     color: #818181;
     font-size: 37px;
@@ -265,9 +365,9 @@
 }
 .work-text2{
     font-size: 18px;
-    width: 125px;
-    text-align: center;
-    padding-left: 52px;
+    width: 101px;
+    padding-left: 65px;
+    
 }
 .work-text-card{
     font-size: 17px;
@@ -365,7 +465,17 @@
 
 }
 .user-div{
-   
+
+    border-radius: 50px;
+    background-color: #828790;
+    width: 90px;
+    height: 90px;
+    border: 1px solid orange;
+    margin: auto;
+}
+.icon{
+    font-size: 71px;
+    padding-top: 23px;
 }
 .Recommendations-text{
     width: 54%;
